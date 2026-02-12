@@ -118,6 +118,9 @@ section:nth-child(even) {
 .project .btn:hover {
     background-color: #043552;
 }
+.project a:hover {
+    color: #5fb4e6;
+}
 
 /* Contact Links */
 #contact a {
