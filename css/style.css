@@ -2,12 +2,12 @@ body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #6a164c;
+    background-color: #d8a4c6;
     color: #333;
 }
 
 nav {
-    background: linear-gradient(90deg, #4c4caf, #043552);
+    background: linear-gradient(90deg, #043552, #043552);
     padding: 1rem;
     position: sticky;
     top: 0;
@@ -108,7 +108,7 @@ section:nth-child(even) {
 }
 
 .project .btn:hover {
-    background-color: #2E7D32;
+    background-color: #043552;
 }
 
 /* Contact Links */
