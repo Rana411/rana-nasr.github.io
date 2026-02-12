@@ -101,7 +101,7 @@ section:nth-child(even) {
 
 .project:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(171, 110, 166, 0.2);
+    box-shadow: 0 10px 20px rgba(54, 176, 210, 0.2);
 }
 
 .project .btn {
