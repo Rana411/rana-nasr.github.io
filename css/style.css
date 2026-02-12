@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d2ccd0;
+    background-color: #bea4c4;
     color: #333;
 }
 
@@ -87,7 +87,11 @@ section:nth-child(even) {
 }
 #projects
 {
-background-color: #956196;
+    background-color: #bea4c4;
+}
+#about
+{
+    background-color: #bea4c4;
 }
 
 .project img {
