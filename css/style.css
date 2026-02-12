@@ -123,7 +123,7 @@ section:nth-child(even) {
 }
 
 /* Contact Links */
-#contact a {
+/* #contact a {
     color:  #1572d0;
     text-decoration: none;
     font-weight: bold;
@@ -131,4 +131,25 @@ section:nth-child(even) {
 
 #contact a:hover {
     color: #044d92;
+} */
+
+
+#contact i {
+    margin-right: 8px;
+    color: #1572d0;
+    transition: color 0.3s;
+}
+
+#contact i:hover {
+    color: #044d92;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color:#044d92;
 }
