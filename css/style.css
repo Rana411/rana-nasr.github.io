@@ -332,6 +332,30 @@ nav {
     width: 100%;
 }
 
+/* ===== Navbar Icons Styling ===== */
+.nav-menu li a i {
+    margin-right: 8px;
+    color: var(--primary-light);
+    transition: var(--transition);
+}
+
+.nav-menu li a:hover i {
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.logo i {
+    color: var(--primary-light);
+    margin-right: 10px;
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.logo:hover i {
+    transform: rotate(10deg);
+    color: var(--white);
+}
+
 /* ===== Hero Section ===== */
 #hero {
     background: linear-gradient(135deg, var(--secondary-light) 0%, #e0d4e3 100%);
