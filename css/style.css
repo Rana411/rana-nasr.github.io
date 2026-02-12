@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #cfc4d2;
-    color: #333;
+    color: #043552;
 }
 
 nav {
@@ -101,14 +101,14 @@ section:nth-child(even) {
 
 .project:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px rgba(171, 110, 166, 0.2);
 }
 
 .project .btn {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background-color: #4CAF50;
+    background-color:  #043552;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -121,11 +121,11 @@ section:nth-child(even) {
 
 /* Contact Links */
 #contact a {
-    color: #4CAF50;
+    color:  #1572d0;
     text-decoration: none;
     font-weight: bold;
 }
 
 #contact a:hover {
-    color: #2E7D32;
+    color: #044d92;
 }
