@@ -345,10 +345,10 @@ nav {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: 5px solid var(--white);
+    border: 3px solid var(--white);
     box-shadow: var(--shadow);
     margin-bottom: 2rem;
     object-fit: cover;
