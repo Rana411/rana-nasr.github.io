@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d8a4c6;
+    background-color: #d2ccd0;
     color: #333;
 }
 
@@ -84,6 +84,10 @@ section:nth-child(even) {
     max-width: 500px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+}
+#projects
+{
+background-color: #956196;
 }
 
 .project img {
