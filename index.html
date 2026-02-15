@@ -1011,56 +1011,100 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2 class="section-title" data-ar="تواصل معي" data-en="Contact Me">تواصل معي</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                   
-                         
-                            <!-- Contact Section (تابع) -->
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h3 data-ar="الهاتف" data-en="Phone">الهاتف</h3>
-                            <p><a href="tel:01067928205">01067928205</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <div>
-                            <h3>LinkedIn</h3>
-                            <p><a href="#" target="_blank">linkedin.com/in/rana</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <div>
-                            <h3>GitHub</h3>
-                            <p><a href="#" target="_blank">github.com/rana</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3 data-ar="الموقع" data-en="Location">الموقع</h3>
-                            <p data-ar="أسيوط، مصر" data-en="Assiut, Egypt">أسيوط، مصر</p>
-                        </div>
+   <!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2 class="section-title" data-ar="تواصل معي" data-en="Contact Me">تواصل معي</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <!-- أيقونة الهاتف -->
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3 data-ar="الهاتف" data-en="Phone">الهاتف</h3>
+                        <p><a href="tel:01067928205">01067928205</a></p>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <h2><i class="fas fa-paper-plane"></i> <span data-ar="أرسل لي رسالة" data-en="Send me a message">أرسل لي رسالة</span></h2>
-                    <form id="contactForm">
-                        <input type="text" id="name" name="name" data-ar-placeholder="الاسم الكامل" data-en-placeholder="Your Full Name" placeholder="الاسم الكامل" required>
-                        <input type="email" id="email" name="email" data-ar-placeholder="البريد الإلكتروني" data-en-placeholder="Your Email" placeholder="البريد الإلكتروني" required>
-                        <input type="text" id="subject" name="subject" data-ar-placeholder="الموضوع" data-en-placeholder="Subject" placeholder="الموضوع" required>
-                        <textarea id="message" name="message" rows="5" data-ar-placeholder="رسالتك..." data-en-placeholder="Your message..." placeholder="رسالتك..." required></textarea>
-                        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> <span data-ar="إرسال الرسالة" data-en="Send Message">إرسال الرسالة</span></button>
-                    </form>
+                
+                <!-- أيقونة البريد الإلكتروني (كانت ناقصة) -->
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3 data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</h3>
+                        <p><a href="mailto:rananasr807@gmail.com">rananasr807@gmail.com</a></p>
+                    </div>
+                </div>
+                
+                <!-- أيقونة لينكد إن -->
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <div>
+                        <h3 data-ar="لينكد إن" data-en="LinkedIn">لينكد إن</h3>
+                        <p><a href="https://www.linkedin.com/in/rana-nasr-01067928205/" target="_blank">linkedin.com/in/rana-nasr</a></p>
+                    </div>
+                </div>
+                
+                <!-- أيقونة جيت هب -->
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h3 data-ar="جيت هب" data-en="GitHub">جيت هب</h3>
+                        <p><a href="https://github.com/rananasr" target="_blank">github.com/rananasr</a></p>
+                    </div>
+                </div>
+                
+                <!-- أيقونة واتساب (إضافية) -->
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <h3 data-ar="واتساب" data-en="WhatsApp">واتساب</h3>
+                        <p><a href="https://wa.me/201067928205" target="_blank">01067928205</a></p>
+                    </div>
+                </div>
+                
+                <!-- أيقونة الموقع -->
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3 data-ar="الموقع" data-en="Location">الموقع</h3>
+                        <p data-ar="أسيوط، مصر" data-en="Assiut, Egypt">أسيوط، مصر</p>
+                    </div>
                 </div>
             </div>
+            
+            <!-- نموذج الاتصال -->
+            <div class="contact-form">
+                <h2><i class="fas fa-paper-plane"></i> <span data-ar="أرسل لي رسالة" data-en="Send me a message">أرسل لي رسالة</span></h2>
+                <form id="contactForm">
+                    <input type="text" id="name" name="name" 
+                           data-ar-placeholder="الاسم الكامل" 
+                           data-en-placeholder="Your Full Name" 
+                           placeholder="الاسم الكامل" required>
+                    
+                    <input type="email" id="email" name="email" 
+                           data-ar-placeholder="البريد الإلكتروني" 
+                           data-en-placeholder="Your Email" 
+                           placeholder="البريد الإلكتروني" required>
+                    
+                    <input type="text" id="subject" name="subject" 
+                           data-ar-placeholder="الموضوع" 
+                           data-en-placeholder="Subject" 
+                           placeholder="الموضوع" required>
+                    
+                    <textarea id="message" name="message" rows="5" 
+                              data-ar-placeholder="رسالتك..." 
+                              data-en-placeholder="Your message..." 
+                              placeholder="رسالتك..." required></textarea>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> 
+                        <span data-ar="إرسال الرسالة" data-en="Send Message">إرسال الرسالة</span>
+                    </button>
+                </form>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer>
